@@ -142,9 +142,6 @@ section {
   transform: translateY(-2px);
 }
 
-/* ========================================
-   NAVBAR
-======================================== */
 #navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -349,6 +346,16 @@ section {
   text-decoration: none;
   text-transform: uppercase;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .scroll-down {
+    bottom: -60px;
+    position: relative;
+    margin-top: 40px;
+    left: auto;
+    transform: none;
+  }
 }
 .scroll-line {
   width: 1.5px;
