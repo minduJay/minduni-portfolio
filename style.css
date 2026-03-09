@@ -347,10 +347,11 @@ section {
   text-transform: uppercase;
   z-index: 1;
 }
-
 @media (max-width: 768px) {
   .hamburger { display: flex; }
   .scroll-down { display: none; }
+  .cursor { display: none; }
+  .cursor-follower { display: none; }
 }
 .scroll-line {
   width: 1.5px;
