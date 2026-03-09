@@ -349,13 +349,8 @@ section {
 }
 
 @media (max-width: 768px) {
-  .scroll-down {
-    bottom: -60px;
-    position: relative;
-    margin-top: 40px;
-    left: auto;
-    transform: none;
-  }
+  .hamburger { display: flex; }
+  .scroll-down { display: none; }
 }
 .scroll-line {
   width: 1.5px;
